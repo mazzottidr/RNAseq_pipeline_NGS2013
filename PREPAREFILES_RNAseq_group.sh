@@ -11,3 +11,5 @@ echo BWA: indexing reference transcriptome...
 	#Make annotation file from the reference transcriptome
 echo Creating annotation file from the reference transcriptome
 	python make_bed_from_fasta.py $ref > $ref.bed
+
+echo Done preparing files!
