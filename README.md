@@ -16,7 +16,7 @@ Please run each command (lines starting with a $), replacing the <   > parts wit
 
 2- Clone the scripts into this directory
 
-	$ git clone <url>
+	$ git clone https://github.com/mazzottidr/RNAseq_pipeline_NGS2013.git
 
 3- run INSTALL_RNAseq_group.sh
 
