@@ -77,6 +77,7 @@ echo Installing bedtools...
 
 #Biopythons
 	echo Installing Biopython
+	cd /mnt
 	curl -O http://biopython.org/DIST/biopython-1.61.tar.gz
 	cd biopython-1.61/
 	python setup.py install
