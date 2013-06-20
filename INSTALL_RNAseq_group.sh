@@ -74,5 +74,11 @@ echo Installing bedtools...
 	cd bedtools-2.17.0/
 	make
 	cp bin/bedtools /usr/local/bin/
-	
+
+#Biopythons
+	echo Installing Biopython
+	curl -O http://biopython.org/DIST/biopython-1.61.tar.gz
+	cd biopython-1.61/
+	python setup.py install
+
 echo Done installing sofware!
