@@ -9,6 +9,12 @@ Allison, Diego Lauren, Rachel
 
 MSU NGS2013 Summer Course
 
+This pipeline aligns paired end reads to a reference transcriptome using bwa-0.7.5a,
+creates SAM and BAM files, counts the mapped reads and creates as a final output the file "bwa_transcriptome_counts.txt"
+ready to use as input file in edgeR. A .fasta file for the unmapped reads is also created for each sample in case
+you want to blast then against any other reference database.
+
+
 Please run each command replacing the <   > parts with your files or paths to files
 
 Feel free to look inside each shell script to figure out what they are doing!
