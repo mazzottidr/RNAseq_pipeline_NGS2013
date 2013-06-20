@@ -69,7 +69,6 @@ You've probably downloaded the Drosophila reference transcriptome)
 
 #################################################################################
 ##### Automation of steps 6 and 7 for N samples will be developed (someday) #####
-#####     My shell script skills does not allow me to do this right now!    #####
 #################################################################################
 
 8- When step 7 is done for all the samples, run bedtools to create a file that contains read count for each transcript for all bam file
