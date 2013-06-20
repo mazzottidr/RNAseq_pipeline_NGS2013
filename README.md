@@ -26,6 +26,7 @@ Please run each command replacing the <   > parts with your files or paths to fi
 4- Download your reference transcriptome within /mnt/pipeline/bwa_transcriptome
 
 	curl -O <url_to_your_reference_transcriptome>
+	gunzip <reference.fasta.gz>
 
 5- Run PREPAREFILES_RNAseq_group.sh
 
