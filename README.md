@@ -11,8 +11,8 @@ Please run each command replacing the <   > parts with your files or paths to fi
 
 1- Create a working directory
 
-	mkdir -p /mnt/pipeline/bwa_transcriptome
-	cd /mnt/pipeline/bwa_transcriptome
+	mkdir -p /mnt/pipeline/
+	cd /mnt/pipeline/
 
 2- Clone the scripts into this directory
 
@@ -24,7 +24,7 @@ Please run each command replacing the <   > parts with your files or paths to fi
 
 4- Download your reference transcriptome within /mnt/pipeline/bwa_transcriptome
 
-	cd /mnt/pipeline/bwa_transcriptome
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/
 	curl -O <url_to_your_reference_transcriptome>
 
 5- Run PREPAREFILES_RNAseq_group.sh
