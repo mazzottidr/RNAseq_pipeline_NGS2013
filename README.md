@@ -17,6 +17,7 @@ Please run each command replacing the <   > parts with your files or paths to fi
 2- Clone the scripts into this directory
 
 	git clone https://github.com/mazzottidr/RNAseq_pipeline_NGS2013.git
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/
 
 3- run INSTALL_RNAseq_group.sh
 
@@ -24,7 +25,6 @@ Please run each command replacing the <   > parts with your files or paths to fi
 
 4- Download your reference transcriptome within /mnt/pipeline/bwa_transcriptome
 
-	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/
 	curl -O <url_to_your_reference_transcriptome>
 
 5- Run PREPAREFILES_RNAseq_group.sh
