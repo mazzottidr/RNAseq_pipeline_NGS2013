@@ -18,7 +18,9 @@ In this case, download Drosophila reference transcriptome (Step 4 of this tutori
 	curl -O -L ftp://ftp.flybase.net/releases/current/dmel_r5.51/fasta/dmel-all-transcript-r5.51.fasta.gz
 	gunzip dmel-all-transcript-r5.51.fasta.gz
 	
-#Tutorial:
+###Tutorial:
+
+Start a new EC2 instance and follow the steps:
 
 1- Create a working directory
 
