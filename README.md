@@ -54,16 +54,16 @@ You've probably downloaded the Drosophila reference transcriptome)
 
 7- Run PIPELINE_RNAseq_group.sh in parallel for each sample (run in different screens if you have a large dataset)
 
-	cd sample1
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample1_paired_end1.fq> <path_to_sample1_paired_end2.fq> <sample1_output_file_prefix>
 
-	cd sample2
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample2_paired_end1.fq> <path_to_sample2_paired_end2.fq> <sample2_output_file_prefix>
 
-	cd sample3
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample3_paired_end1.fq> <path_to_sample3_paired_end2.fq> <sample3_output_file_prefix>
 
-	cd sample4
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample4_paired_end1.fq> <path_to_sample4_paired_end2.fq> <sample4_output_file_prefix>
 
 
