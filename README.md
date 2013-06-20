@@ -10,6 +10,11 @@ MSU NGS2013
 Please run each command replacing the <   > parts with your files or paths to files
 Feel free to look inside each shell script to figure out what they are doing!
 
+You may want to run this pipeline with some sample data.
+Here is the link to some sample RNAseq paired end reads (4 samples, 10k for each pair)
+	
+	curl -O https://www.dropbox.com/sh/k2fnubss7qd3ztj/yTEipf-NcJ
+
 1- Create a working directory
 
 	mkdir -p /mnt/pipeline/
@@ -32,8 +37,8 @@ Feel free to look inside each shell script to figure out what they are doing!
 5- Run PREPAREFILES_RNAseq_group.sh (This will prepare the reference transcriptome file)
 
 	bash PREPAREFILES_RNAseq_group.sh <reference.fasta>
-
-6- Create folders for each sample to be proccessed (example for 4 samples is shown below)
+	
+6- Create folders for each sample to be proccessed (example for 4 samples is shown below).
 
 	mkdir sample1
 	mkdir sample2
