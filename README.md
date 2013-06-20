@@ -57,13 +57,13 @@ You've probably downloaded the Drosophila reference transcriptome)
 	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample1_paired_end1.fq> <path_to_sample1_paired_end2.fq> <sample1_output_file_prefix>
 
-	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample2
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample2_paired_end1.fq> <path_to_sample2_paired_end2.fq> <sample2_output_file_prefix>
 
-	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample3
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample3_paired_end1.fq> <path_to_sample3_paired_end2.fq> <sample3_output_file_prefix>
 
-	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample4
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample4_paired_end1.fq> <path_to_sample4_paired_end2.fq> <sample4_output_file_prefix>
 
 
