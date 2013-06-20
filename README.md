@@ -10,10 +10,11 @@ Allison, Diego Lauren, Rachel
 MSU NGS2013 Summer Course
 
 Please run each command replacing the <   > parts with your files or paths to files
+
 Feel free to look inside each shell script to figure out what they are doing!
 
 You may want to run this pipeline with some sample data (RNAseq paired end reads, 4 samples, 10k reads for each pair) from Drosophila.
-In this case, download Drosophila reference transcriptome (Step 4 of this tutorial - look below)
+In this case, download the Drosophila reference transcriptome (Step 4 of this tutorial - look below)
 	
 	curl -O -L ftp://ftp.flybase.net/releases/current/dmel_r5.51/fasta/dmel-all-transcript-r5.51.fasta.gz
 	gunzip dmel-all-transcript-r5.51.fasta.gz
@@ -54,7 +55,7 @@ You've probably downloaded the Drosophila reference transcriptome)
 	mkdir sample3
 	mkdir sample4
 
-7- Run PIPELINE_RNAseq_group.sh in parallel for each sample (run in different screens if you have a large dataset)
+7- Run PIPELINE_RNAseq_group.sh for each sample (run in different screens if you have a large dataset - not necessary for the sample data - it will run quickly)
 
 	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/sample1
 	bash ../PIPELINE_RNAseq_group.sh ../<reference.fasta> <path_to_sample1_paired_end1.fq> <path_to_sample1_paired_end2.fq> <sample1_output_file_prefix>
