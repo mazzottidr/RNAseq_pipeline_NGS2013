@@ -70,6 +70,6 @@ Run in screen 4
 8- When step 7 is done for all the samples, run bedtools to create a file that contains read count for each transcript for all bam files
 
 	cd ../
-	bedtools multicov -q 30 -p -bams /sample1/<sample1_output_file_prefix.bam> /sample2/<sample2_output_file_prefix.bam> /sample3/<sample3_output_file_prefix.bam> /sample4/<sample4_output_file_prefix.bam> -bed <reference.fasta.bed> > bwa_transcriptome_counts.txt
+	bedtools multicov -q 30 -p -bams sample1/<sample1_output_file_prefix.bam> sample2/<sample2_output_file_prefix.bam> sample3/<sample3_output_file_prefix.bam> sample4/<sample4_output_file_prefix.bam> -bed <reference.fasta.bed> > bwa_transcriptome_counts.txt
 
 9- DONE! (You may want to run edgeR with the results of this pipeline)
