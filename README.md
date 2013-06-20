@@ -4,16 +4,27 @@ RNAseq_pipeline_NGS2013
 README file / Tutorial
 
 RNAseq - From QC passed paired-end reads to read counts per transcript
+
 Allison, Diego Lauren, Rachel
-MSU NGS2013
+
+MSU NGS2013 Summer Course
 
 Please run each command replacing the <   > parts with your files or paths to files
 Feel free to look inside each shell script to figure out what they are doing!
 
 You may want to run this pipeline with some sample data.
-Here is the link to some sample RNAseq paired end reads (4 samples, 10k for each pair)
+Here is the link to some sample RNAseq paired end reads (4 samples, 10k reads for each pair) from Drosophila:
 	
-	curl -O https://www.dropbox.com/sh/k2fnubss7qd3ztj/yTEipf-NcJ
+	#Download some sample reads
+	
+	
+	#Download Drosophila reference transcriptome (Step 4 of this tutorial - look below)
+	curl -O -L ftp://ftp.flybase.net/releases/current/dmel_r5.51/fasta/dmel-all-transcript-r5.51.fasta.gz
+	gunzip dmel-all-transcript-r5.51.fasta.gz
+
+	
+	
+#Tutorial:
 
 1- Create a working directory
 
@@ -29,7 +40,8 @@ Here is the link to some sample RNAseq paired end reads (4 samples, 10k for each
 
 	bash INSTALL_RNAseq_group.sh
 
-4- Download your reference transcriptome
+4- Download your reference transcriptome (skip this step if you are running the sample data.
+You've probably downloaded the Drosophila reference transcriptome)
 
 	curl -O <url_to_your_reference_transcriptome>
 	gunzip <reference.fasta.gz>
