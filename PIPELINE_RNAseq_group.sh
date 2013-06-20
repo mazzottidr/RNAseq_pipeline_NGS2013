@@ -59,7 +59,7 @@ echo samtools: Counting mapped and unmapped reads...
 		echo The alignment mapped $mappedpercentage% of the reads
 
 #Create FASTA file from unmapped BAM file
-	samtools view $unmapped | awk '{OFS="\t"; print ">"$1"\n"$10}' > /blastdb/$out.unmapped.fasta
+	samtools view $unmapped | awk '{OFS="\t"; print ">"$1"\n"$10}' > $out.unmapped.fasta
 
 
 
