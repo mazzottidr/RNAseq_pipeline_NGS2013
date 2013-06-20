@@ -33,6 +33,7 @@ In this case, download Drosophila reference transcriptome (Step 4 of this tutori
 3- run INSTALL_RNAseq_group.sh (This will install all required software)
 
 	bash INSTALL_RNAseq_group.sh
+	cd /mnt/pipeline/RNAseq_pipeline_NGS2013/
 
 4- Download your reference transcriptome (skip this step if you are running the sample data.
 You've probably downloaded the Drosophila reference transcriptome)
