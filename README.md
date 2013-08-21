@@ -3,8 +3,6 @@ RNAseq_pipeline_NGS2013
 
 README file / Tutorial
 
-Estou editando esse arquivo
-
 RNAseq - From QC passed paired-end reads to read counts per transcript
 
 Allison, Diego Lauren, Rachel
